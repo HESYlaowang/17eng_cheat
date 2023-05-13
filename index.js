@@ -6,7 +6,7 @@ const flowerUrl = id => `https://studentapi.lyced.com//student/SendFlower?Sender
 let id = 1000;
 
 function send(i) {
-    if (i > 11000) {
+    if (i > 1145141919) {
         throw new Error('sss')
     }
     https.get(signUrl(id), res => {
