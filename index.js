@@ -1,7 +1,7 @@
 const https = require('https');
 
 const signUrl = id => `https://studentapi.lyced.com//student/Sign?StudentId=${id}`
-const flowerUrl = id => `https://studentapi.lyced.com//student/SendFlower?Sender=${id}&Receiver=1194137&FlowerCount=1`
+const flowerUrl = id => `https://studentapi.lyced.com//student/SendFlower?Sender=${id}&Receiver=1194152&FlowerCount=1`
 
 let id = 1000;
 
